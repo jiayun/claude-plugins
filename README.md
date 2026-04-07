@@ -25,22 +25,11 @@ Each agent independently analyzes the topic and casts a vote (approve/reject/abs
 
 ## Installation
 
-Add to your Claude Code settings (`~/.claude/settings.json`):
+In Claude Code:
 
-```json
-{
-  "extraKnownMarketplaces": {
-    "jy-plugins": {
-      "source": {
-        "source": "github",
-        "repo": "jiayun/claude-plugins"
-      }
-    }
-  },
-  "enabledPlugins": {
-    "jy@jy-plugins": true
-  }
-}
+```
+/plugin marketplace add jiayun/claude-plugins
+/plugin install jy@jy-plugins
 ```
 
 ## License
