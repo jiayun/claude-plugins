@@ -29,7 +29,17 @@ Add to your Claude Code settings (`~/.claude/settings.json`):
 
 ```json
 {
-  "plugins": ["jy-plugins"]
+  "extraKnownMarketplaces": {
+    "jy-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "jiayun/claude-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "jy@jy-plugins": true
+  }
 }
 ```
 
