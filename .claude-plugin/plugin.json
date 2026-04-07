@@ -2,5 +2,5 @@
   "name": "jy",
   "description": "Jiayun's personal Claude Code toolkit",
   "version": "1.0.0",
-  "author": "Jiayun Zhou"
+  "author": { "name": "Jiayun Zhou" }
 }
