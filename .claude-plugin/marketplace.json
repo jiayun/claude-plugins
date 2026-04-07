@@ -1,0 +1,7 @@
+{
+  "name": "jy-plugins",
+  "owner": { "name": "Jiayun Zhou" },
+  "plugins": [
+    { "name": "jy", "source": "." }
+  ]
+}
